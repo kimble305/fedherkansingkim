@@ -54,6 +54,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <img src="readme-images/IMG_7985.JPG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/IMG_7986.JPG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/IMG_7987.JPG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/IMG_7988.JPG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/IMG_7989.JPG" width="375px" alt="omschrijving van de pagina">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
