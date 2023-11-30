@@ -162,8 +162,8 @@ nav .right ::placeholder {
   position: absolute;
   top: 50%;
   left: 5%;
-  width: 45px; /* Adjust the width to make it completely round */
-  height: 45px; /* Set the height to match the width */
+  width: 45px; 
+  height: 45px; 
   color: black;
   font-weight: lighter;
   font-size: 18px;
@@ -180,8 +180,8 @@ nav .right ::placeholder {
   position: absolute;
   top: 50%;
   right: 5%;
-  width: 45px; /* Adjust the width to make it completely round */
-  height: 45px; /* Set the height to match the width */
+  width: 45px; 
+  height: 45px; 
   color: black;
   font-weight: lighter;
   font-size: 18px;
@@ -194,12 +194,12 @@ nav .right ::placeholder {
 }
 
 .carousel-container {
-  width: calc(100% - 4rem); /* 100% width with 2rem margin on each side */
+  width: calc(100% - 4rem); 
   overflow: hidden;
   position: relative;
   margin-top: 1rem;
-  margin-left: 2rem; /* Left margin */
-  margin-right: 2rem; /* Right margin */
+  margin-left: 2rem; 
+  margin-right: 2rem; 
 }
 
 .carousel-wrapper {
@@ -208,20 +208,20 @@ nav .right ::placeholder {
 }
 
 .carousel-item {
-  flex: 0 0 calc(25% - 1rem); /* Adjust the min-width and width of each slide with a 1rem gap */
+  flex: 0 0 calc(25% - 1rem); 
   box-sizing: border-box;
   overflow: hidden;
-  margin-right: 1rem; /* Add margin to the right of each slide for the gap */
+  margin-right: 1rem; 
 }
 
 .carousel-item img {
   width: 100%;
-  height: 500px; /* Set the desired height for all images */
+  height: 500px; 
   object-fit: cover;
 }
 
 .carousel-item:last-child {
-  margin-right: 0; /* Remove margin from the last slide to avoid extra space */
+  margin-right: 0; 
 }
 
 
