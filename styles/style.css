@@ -35,42 +35,49 @@ body {
   padding: 0;
 }
 
-nav {
+nav{
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
   padding: 1rem 0rem;
-}
-nav .left img {
-  width: 65px;
-}
-nav .center {
-  display: flex;
-  gap: 1rem;
-}
-nav .center p {
-  cursor: pointer;
-  color: black;
-  font-weight: 500;
-}
-nav .right img {
-  width: 30px;
-  display: none;
-}
-nav .right input {
-  background-color: #f3f3f3;
-  border: none;
-  border-radius: 3rem;
-  padding: 0.7rem;
-  width: 150px;
-}
-nav .right ::placeholder {
-  color: #cecece;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 0rem 1rem;
-}
+  .left{
+    img{
+      width: 65px;
+    }
+  }
+  .center{
+    display: flex;
+    gap: 1rem;
+    
+    p{
+      cursor: pointer;
+      color: black;
+      font-weight: 500;
+    }
+  }
+  .right{
+    img{
+      width: 30px;
+      display: none;
+    }
+    input{
+      background-color: #f3f3f3;
+      border: none;
+      border-radius: 3rem;
+      padding: 0.7rem;
+      width: 150px;
 
+    }
+    ::placeholder{
+      color: #cecece;
+      font-weight: 500;
+      font-size: 1rem;
+      padding: 0rem 1rem;
+    }
+
+  }
+}
 
 
 
