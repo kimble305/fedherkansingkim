@@ -35,49 +35,7 @@ body {
   padding: 0;
 }
 
-nav{
 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  padding: 1rem 0rem;
-  .left{
-    img{
-      width: 65px;
-    }
-  }
-  .center{
-    display: flex;
-    gap: 1rem;
-    
-    p{
-      cursor: pointer;
-      color: black;
-      font-weight: 500;
-    }
-  }
-  .right{
-    img{
-      width: 30px;
-      display: none;
-    }
-    input{
-      background-color: #f3f3f3;
-      border: none;
-      border-radius: 3rem;
-      padding: 0.7rem;
-      width: 150px;
-
-    }
-    ::placeholder{
-      color: #cecece;
-      font-weight: 500;
-      font-size: 1rem;
-      padding: 0rem 1rem;
-    }
-
-  }
-}
 
 
 
