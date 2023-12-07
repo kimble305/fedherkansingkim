@@ -224,6 +224,615 @@ nav .right ::placeholder {
   margin-right: 0; 
 }
 
+.prev2 {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  width: 50px; 
+  height: 50px; 
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 50px; 
+  height: 50px; 
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container2 {
+  width: calc(100% - 4rem); 
+  overflow: hidden;
+  position: relative;
+  margin-left: 2rem; 
+  margin-right: 2rem; 
+  margin-top: 3rem;
+}
+.carousel-container2 .carousel-title-2 {
+  font-size: 1.5rem;
+}
+.carousel-container2 .description .title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.carousel-container2 .description .subtitle {
+  margin-top: -0.7rem;
+  color: gray;
+  font-weight: 400;
+}
+.carousel-container2 .description .price {
+  margin-top: -0.5rem;
+  font-weight: 500;
+}
+
+.carousel-wrapper2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  margin-top: 2rem;
+}
+
+.carousel-item2 {
+  flex: 0 0 calc(33.33% - 1rem); 
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-right: 1rem; 
+}
+
+.carousel-item2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-item2:last-child {
+  margin-right: 0;
+}
+
+.prev3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 45px; 
+  height: 45px; 
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 45px; 
+  height: 45px; 
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container3 {
+  width: calc(100% - 4rem); 
+  overflow: hidden;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 2rem; 
+  margin-right: 2rem; 
+}
+.carousel-container3 p {
+  font-size: 1.5rem;
+}
+
+.carousel-wrapper3 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item3 {
+  flex: 0 0 calc(25% - 1rem); 
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-right: 1rem; 
+}
+
+.carousel-item3 img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.carousel-item3:last-child {
+  margin-right: 0; 
+}
+
+.prev4 {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  width: 50px; 
+  height: 50px; 
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 50px; 
+  height: 50px; 
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container4 {
+  width: calc(100% - 4rem); 
+  overflow: hidden;
+  position: relative;
+  margin-left: 2rem; 
+  margin-right: 2rem; 
+  margin-top: 3rem;
+}
+.carousel-container4 p {
+  font-size: 1.2rem;
+}
+
+.carousel-wrapper4 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item4 {
+  flex: 0 0 calc(33.33% - 1rem); 
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-right: 1rem; 
+}
+
+.carousel-item4 img {
+  width: 100%;
+  height: 370px; 
+  object-fit: cover;
+}
+
+.carousel-item4:last-child {
+  margin-right: 0; 
+}
+
+app {
+  margin: 2rem 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.app .start {
+  position: relative;
+}
+.app .start img {
+  width: 100%;
+}
+.app .start p {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  color: black;
+  font-size: 1.5rem;
+}
+.app .start button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.app .end {
+  position: relative;
+}
+.app .end img {
+  width: 100%;
+}
+.app .end p {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  color: black;
+  font-size: 1.5rem;
+}
+.app .end button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.more {
+  margin: 2rem 2rem;
+}
+.more .more-title {
+  font-size: 1.5rem;
+}
+.more .carts {
+  display: flex;
+  gap: 1rem;
+}
+.more .carts .cart {
+  position: relative;
+}
+.more .carts .cart img {
+  width: 100%;
+}
+.more .carts .cart .buttons button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+footer {
+  margin: 5rem 2rem;
+  display: flex;
+  place-content: center;
+  gap: 5rem;
+}
+footer .row .row-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+footer .row .row-menu p {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 1450px) {
+  .carousel-item,
+  .carousel-item2,
+  .carousel-item3,
+  .carousel-item4 {
+    flex: 0 0 calc(33.33% - 1rem);
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-item,
+  .carousel-item2,
+  .carousel-item3,
+  .carousel-item4 {
+    flex: 0 0 calc(50% - 1rem);
+  }
+}
+@media (max-width: 1080px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 1rem 0rem;
+  }
+  nav .left img {
+    width: 65px;
+  }
+  nav .center {
+    display: flex;
+    gap: 1rem;
+  }
+  nav .center p {
+    display: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+  }
+  nav .right img {
+    width: 30px;
+    display: block;
+  }
+  nav .right input {
+    display: none;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.7rem;
+    width: 150px;
+  }
+  nav .right ::placeholder {
+    color: #cecece;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0rem 1rem;
+  }
+}
+@media (max-width: 960px) {
+  footer {
+    margin: 5rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-content: center;
+    gap: 5rem;
+  }
+  footer .row .row-title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  footer .row .row-menu p {
+    font-size: 0.95rem;
+  }
+  .more {
+    margin: 2rem 2rem;
+  }
+  .more .more-title {
+    font-size: 1.5rem;
+  }
+  .more .carts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .more .carts .cart {
+    position: relative;
+  }
+  .more .carts .cart img {
+    width: 100%;
+  }
+  .more .carts .cart .buttons button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .app {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .app .start {
+    position: relative;
+  }
+  .app .start img {
+    width: 100%;
+  }
+  .app .start p {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    color: black;
+    font-size: 1.5rem;
+  }
+  .app .start button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .app .end {
+    position: relative;
+  }
+  .app .end img {
+    width: 100%;
+  }
+  .app .end p {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    color: black;
+    font-size: 1.5rem;
+  }
+  .app .end button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .carousel-item,
+  .carousel-item2,
+  .carousel-item3,
+  .carousel-item4 {
+    flex: 0 0 calc(100% - 1rem);
+  }
+}
+@media (max-width: 670px) {
+  .prev,
+  .prev2,
+  .prev3,
+  .prev4,
+  .next,
+  .next2,
+  .next3,
+  .next4 {
+    display: none;
+  }
+  .hero2 {
+    line-height: 1em;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+  .hero2 .hero2-title {
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+  .hero2 .hero2-description {
+    margin-top: -1.5rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+  .hero2 button {
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 0.7rem;
+  }
+  .hero {
+    padding: 6rem 1rem;
+    text-align: center;
+    background-color: black;
+  }
+  .hero .hero-subtitle {
+    color: white;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  .hero .hero-title {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -0.7rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+  .hero .hero-quote {
+    margin-top: -1rem;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 500;
+  }
+  .hero button {
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 430px) {
+  footer {
+    margin: 5rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-content: center;
+    gap: 1rem;
+  }
+  footer .row .row-title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  footer .row .row-menu p {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 390px) {
+  .hero2 {
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+  .hero2 .hero2-title {
+    line-height: 1em;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+  .hero2 .hero2-description {
+    margin-top: -1.5rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+  .hero2 button {
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 0.7rem;
+  }
+}
 
 
 
