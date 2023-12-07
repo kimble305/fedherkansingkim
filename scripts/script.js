@@ -5,7 +5,7 @@ let currentIndex = 0;
 let slidesToShow = 4; 3
 let touchStartX;
 
-function handleResponsiveSlides() {
+function handleResponsiveSlides() { 
     const wrapper = document.querySelector('.carousel-wrapper');
     const items = document.querySelectorAll('.carousel-item');
     const totalItems = items.length;
