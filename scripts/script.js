@@ -1,4 +1,22 @@
 // JavaScript Document
+
+document.addEventListener("DOMContentLoaded", function () {
+    var acc = document.querySelectorAll(".accordion");
+
+    acc.forEach(function (accordion) {
+        accordion.addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    });
+});
+
 console.log("nike");
 
 let currentIndex = 0;
@@ -358,3 +376,95 @@ let currentIndex2 = 0;
 
     
     init4();
+
+    console.log("nike");
+
+
+    function showSlide2(index) {
+        const wrapper2 = document.querySelector('.carousel-wrapper2');
+        const items = document.querySelectorAll('.carousel-item2');
+        const totalItems = items.length;
+        let slidesToShow = 3;
+
+        if (window.innerWidth < 960) {
+            slidesToShow = 1; 
+        } else if (window.innerWidth < 1200) {
+            slidesToShow = 2; 
+        } else if (window.innerWidth < 1450) {
+            slidesToShow = 3; 
+        }
+
+        if (index >= totalItems) {
+            currentIndex2 = 0;
+        } else if (index < 0) {
+            currentIndex2 = totalItems - slidesToShow;
+        } else {
+            currentIndex2 = index;
+        }
+
+        const translateValue = -currentIndex2 * (100 / slidesToShow) + '%';
+        wrapper2.style.transform = 'translateX(' + translateValue + ')';
+    }
+
+    function nextSlide2() {
+        const items = document.querySelectorAll('.carousel-item2');
+        const totalItems = items.length;
+        let slidesToShow = 3; 
+
+        if (window.innerWidth < 960) {
+            slidesToShow = 1; 
+        } else if (window.innerWidth < 1200) {
+            slidesToShow = 2; 
+        } else if (window.innerWidth < 1450) {
+            slidesToShow = 3; 
+        }
+
+        if (currentIndex2 < totalItems - slidesToShow) {
+            showSlide2(currentIndex2 + 1);
+        } else {
+            showSlide2(0);
+        }
+    }
+
+    function prevSlide2() {
+        showSlide2(currentIndex2 - 1);
+    }
+
+    function handleTouchStart2(event) {
+        touchStartX2 = event.touches[0].clientX;
+    }
+
+    function handleTouchMove2(event) {
+        const sensitivity = 50; 
+        const delta = touchStartX2 - event.touches[0].clientX;
+
+        if (delta > sensitivity) {
+            nextSlide2();
+            touchStartX2 = event.touches[0].clientX; 
+        } else if (delta < -sensitivity) {
+            prevSlide2();
+            touchStartX2 = event.touches[0].clientX; 
+        }
+    }
+
+    function handleTouchEnd2() {
+        
+    }
+
+    function initTouchEvents2() {
+        const wrapper2 = document.querySelector('.carousel-wrapper2');
+        wrapper2.addEventListener('touchstart', handleTouchStart2, false);
+        wrapper2.addEventListener('touchmove', handleTouchMove2, false);
+        wrapper2.addEventListener('touchend', handleTouchEnd2, false);
+    }
+
+    function init2() {
+        showSlide2(currentIndex2);
+        if (window.innerWidth <= 960) {
+            initTouchEvents2();
+        }
+    }
+
+    init2();
+
+
