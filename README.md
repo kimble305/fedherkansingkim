@@ -183,7 +183,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Ik ben trots op hoe het eruit ziet, mijn zus dacht  bijvoorbeeld dat ik op de echte Nike site aan het kijken was. Aan het begin had ik er al weinig vertrouwen in omdat programmeren niet mijn sterkste punt is. Ik heb rustig de tijd genomen en mijn best gedaan, uiteindelijk vind ik dat het een mooie site geworden. Wat ik heb geleerd is dat chatGPT handig is voor het debuggen van code. Vooral aan het einde van van het bouwen van de site kwamen er veel bugs tevoorschijn, vooral bij javascript. Dit is gelukkig opgelost door het gebruik van chatGPT. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Schermafbeelding 2023-12-12 om 11.45.02.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
