@@ -5,11 +5,6 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -92,8 +87,13 @@ nav .right ::placeholder {
 .hero {
   padding: 6rem;
   text-align: center;
-  background-color: black;
+  background-image: url(/Users/kara/Downloads/basiswebsite/images/C4A7FDCF-91F9-43FB-B41F-632D2E731706.JPEG);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
+
 .hero .hero-subtitle {
   color: white;
   font-weight: 500;
@@ -345,15 +345,17 @@ nav .right ::placeholder {
   align-items: center;
 }
 
+
 .carousel-container3 {
-  width: calc(100% - 4rem); 
+  width: calc(100%);
   overflow: hidden;
   position: relative;
-  margin-top: 1rem;
-  margin-left: 2rem; 
-  margin-right: 2rem; 
+  margin-left: 0.05rem; 
+  margin-right: 0.1rem; 
+  margin-top: 3rem;
 }
-.carousel-container3 p {
+
+.carousel-container3 h2 {
   font-size: 1.5rem;
 }
 
@@ -415,7 +417,7 @@ nav .right ::placeholder {
   align-items: center;
 }
 
-.carousel-container4 {
+.trending {
   width: calc(100% - 4rem); 
   overflow: hidden;
   position: relative;
@@ -423,7 +425,7 @@ nav .right ::placeholder {
   margin-right: 2rem; 
   margin-top: 3rem;
 }
-.carousel-container4 p {
+.trending h2 {
   font-size: 1.2rem;
 }
 
@@ -449,7 +451,7 @@ nav .right ::placeholder {
   margin-right: 0; 
 }
 
-app {
+.app {
   margin: 2rem 2rem;
   display: flex;
   gap: 1rem;
@@ -464,8 +466,9 @@ app {
   position: absolute;
   bottom: 20%;
   left: 5%;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .app .start button {
   cursor: pointer;
@@ -490,8 +493,9 @@ app {
   position: absolute;
   bottom: 20%;
   left: 5%;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 1.5rem;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .app .end button {
   cursor: pointer;
@@ -507,10 +511,10 @@ app {
   font-size: 1rem;
 }
 
-.more {
+.section .more {
   margin: 2rem 2rem;
 }
-.more .more-title {
+section .more .more-title {
   font-size: 1.5rem;
 }
 .more .carts {
@@ -788,14 +792,14 @@ footer .row .row-menu p {
     font-size: 1rem;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 960px) {
   footer {
     margin: 5rem 2rem;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     place-content: center;
-    gap: 1rem;
+    gap: 5rem;
   }
   footer .row .row-title {
     font-size: 1rem;
