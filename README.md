@@ -181,13 +181,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik ben trots op hoe het eruit ziet, mijn zus dacht  bijvoorbeeld dat ik op de echte Nike site aan het kijken was. Aan het begin had ik er al weinig vertrouwen in omdat programmeren niet mijn sterkste punt is. Ik heb rustig de tijd genomen en mijn best gedaan, uiteindelijk vind ik dat het een mooie site geworden. Wat ik heb geleerd is dat chatGPT handig is voor het debuggen van code. Vooral aan het einde van van het bouwen van de site kwamen er veel bugs tevoorschijn, vooral bij javascript. Dit is gelukkig opgelost door het gebruik van chatGPT. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Wat het lastigste was, was het laten werken van de javascript. Hier heb ik het meeste tijd in zitten, ik kreeg bij het begin ook spijt van dat ik responsive had uitgekozen omdat dat erg lastig was om te doen. Gelukkig werkt alles nu wel goed. Wat jammer was, was dat ik erg laat er achter kwam dat het gebruiken van te veel div's niet helemaal de bedoeling was. De div's heb ik nog geprobeerd te verminderen in de laatste dagen. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
