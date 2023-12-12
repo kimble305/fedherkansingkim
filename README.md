@@ -133,7 +133,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  -
 
 </details>
 
@@ -147,23 +147,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Tot dit punt ging het redelijk goed, de eerste html page was zo goed als af. Ik wist dat ik de laatste weekend hard moest werken om de tweede html page ook af te krijgen. 
+  Tot dit punt ging het redelijk goed, de eerste html page was zo goed als af. Ik wist dat ik de laatste weekend hard moest werken om     de tweede html page ook af te krijgen. 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - Ik had deze week met studentenassistent Thije gesproken. Hij vertelde mij dat ik nog te veel div's had gebruikt, mijn code moest meer semantisch worden. Voor het eind gesprek heb ik veel div's weggehaald en vervangen door semantische code zoals bijvoorbeeld sections.
+  Ik had deze week met studentenassistent Thije gesproken. Hij vertelde mij dat ik nog te veel div's had gebruikt, mijn code moest        meer semantisch worden. Voor het eind gesprek heb ik veel div's weggehaald en vervangen door semantische code zoals bijvoorbeeld        sections.
 
 </details>
 
