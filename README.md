@@ -189,7 +189,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Wat het lastigste was, was het laten werken van de javascript. Hier heb ik het meeste tijd in zitten, ik kreeg bij het begin ook spijt van dat ik responsive had uitgekozen omdat dat erg lastig was om te doen. Gelukkig werkt alles nu wel goed. Wat jammer was, was dat ik erg laat er achter kwam dat het gebruiken van te veel div's niet helemaal de bedoeling was. De div's heb ik nog geprobeerd te verminderen in de laatste dagen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Schermafbeelding 2023-12-12 om 11.48.32.png" width="375px" alt="bummer">
 </details>
 
 
