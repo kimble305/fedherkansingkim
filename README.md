@@ -60,9 +60,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/IMG_7988.JPG" width="375px" alt="omschrijving van de pagina">
   <img src="readme-images/IMG_7989.JPG" width="375px" alt="omschrijving van de pagina">
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-
 </details>
 
 
@@ -88,33 +85,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 (week 2) (afwezig)
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  -
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  -
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  -
 </details>
 
 
@@ -127,26 +112,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het ging voor mijn gevoel goed tot dit gesprek, het enige waar ik mee zat was ik mijn site niet live kreeg via visual studio code.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  -
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  Het live krijgen van mijn code was snel opgelost met de studentenassistent, kreeg ook te horen dat mijn code er goed uit zag.
 
 </details>
 
@@ -174,7 +147,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Tot dit punt ging het redelijk goed, de eerste html page was zo goed als af. Ik wist dat ik de laatste weekend hard moest werken om de tweede html page ook af te krijgen. 
 
 
   ### Agenda voor meeting
@@ -190,10 +163,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik had deze week met studentenassistent Thije gesproken. Hij vertelde mij dat ik nog te veel div's had gebruikt, mijn code moest meer semantisch worden. Voor het eind gesprek heb ik veel div's weggehaald en vervangen door semantische code zoals bijvoorbeeld sections.
 
 </details>
 
@@ -235,8 +205,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/howto/howto_js_accordion.asp - accordion 
+  2. https://www.w3schools.com/howto/howto_css_next_prev.asp - next and previous buttons
+  3. https://www.w3schools.com/howto/howto_css_hero_image.asp - hero image
+  4. https://www.w3schools.com/howto/howto_js_slideshow.asp - carousel
+  5. https://www.w3schools.com/cssref/css3_pr_text-shadow.php - font shadow
+  6. https://www.w3schools.com/howto/howto_css_searchbar.asp - search bar
+  7. https://chat.openai.com - responsive maken
+  8. https://chat.openai.com - veel gebruikt voor het oplossen van errors
 
 </details>
