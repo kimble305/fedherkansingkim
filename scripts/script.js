@@ -105,8 +105,6 @@ function init() {
 
 init();
 
-// Nike Dunk SB's
-
 let currentIndex2 = 0;
     let touchStartX2;
 
@@ -199,8 +197,6 @@ let currentIndex2 = 0;
     
     init2();
 
-    // Ontdek onze iconen
-
     let currentIndex3 = 0;
     let slidesToShow3 = 4; 
     let touchStartX3;
@@ -287,8 +283,6 @@ let currentIndex2 = 0;
 
     
     init3();
-
-    // Trending deze week
 
     let currentIndex4 = 0;
     let slidesToShow4 = 3; 
