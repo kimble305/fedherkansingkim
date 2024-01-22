@@ -130,7 +130,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na test in 9
+  <sup>
+    Ik ben begonnen met de screenreader, de buttons en links zijn goed leesbaar door de screenreader.
+  </sup> werkgroep</summary>
 
   <img src="readme-images/Schermafbeelding 2024-01-22 om 13.53.46.png" width="375px" alt="1">
   <img src="readme-images/Schermafbeelding 2024-01-22 om 13.54.18.png" width="375px" alt="2">
@@ -138,6 +141,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   -
+  Na de screenreader heb ik de WCAG checklist voor de tweede keer gedaan. 
 
   <img src="readme-images/Untitled - Frame 1-7.jpg" width="375px" alt="1">
   <img src="readme-images/Untitled - Frame 2.jpg" width="375px" alt="2">
