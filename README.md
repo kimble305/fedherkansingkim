@@ -131,9 +131,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9
-  <sup>
-    Ik ben begonnen met de screenreader, de buttons en links zijn goed leesbaar door de screenreader.
-  </sup> werkgroep</summary>
+  <sup> </sup> werkgroep</summary>
+
+  Ik ben begonnen met de screenreader, de buttons en links zijn goed leesbaar door de screenreader.
 
   <img src="readme-images/Schermafbeelding 2024-01-22 om 13.53.46.png" width="375px" alt="1">
   <img src="readme-images/Schermafbeelding 2024-01-22 om 13.54.18.png" width="375px" alt="2">
