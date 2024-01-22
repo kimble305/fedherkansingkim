@@ -139,6 +139,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   -
 
+  <img src="readme-images/Untitled - Frame 1-7.jpg" width="375px" alt="1">
+  <img src="readme-images/Untitled - Frame 1-7.jpg" width="375px" alt="2">
+  <img src="readme-images/Untitled - Frame 1-7.jpg" width="375px" alt="3">
+
 </details>
 
 
